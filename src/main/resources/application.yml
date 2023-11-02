@@ -1,0 +1,19 @@
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: ${BASE_URL:/}
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+spring:
+  data:
+    mongodb:
+      uri: ${DB_URL:mongodb://localhost:27017}
+      database: ${DB_NAME:equipment_service_db}
+      auto-index-creation: true
