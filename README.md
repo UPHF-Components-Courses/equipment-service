@@ -1,4 +1,4 @@
-# [Educative Game Project] - Equipment Service
+# [UPHF-Educative Game Project] - Equipment Service
 
 This project serves as an educational example of building a RESTful API for managing equipment data
 stored in a MongoDB database.
